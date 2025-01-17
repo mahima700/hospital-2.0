@@ -1,0 +1,346 @@
+
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header styles */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+header h1 {
+    text-align: center;
+    font-size: 2rem;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+/* Dropdown styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #0f2ebd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(61, 24, 196, 0.2);
+    z-index: 1;
+    padding: 10px 0;
+    border-radius: 4px;
+}
+
+.dropdown-menu li {
+    padding: 8px 16px;
+    width: 100%;
+}
+
+.dropdown-menu li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+}
+
+.dropdown-menu li a:hover {
+    background-color: #c9ae39;
+}
+
+/* Hover effect on menu items */
+nav ul li a:hover, .dropdown:hover > a {
+    background-color: #d89314;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+/* Resetting some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Basic Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Section */
+header {
+    background:rgb(74, 57, 226);
+    color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content Section */
+.main-content {
+    background: #f4f4f4;
+    padding: 40px 0;
+}
+
+.main-content .container {
+    text-align: center;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+}
+
+r {
+    background-color: #555;
+} 
+ 
+
+/* Style for header */
+header {
+    background-color: #131eb4;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #f0f6fc;
+}
+
+header nav ul li a:hover {
+    color: #0056b3;
+}
+
+/* Image Gallery Styles */
+.image-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  /* 5 equal columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.img-container {
+    position: relative;
+    overflow: hidden;  /* Ensures the zoom effect is contained */
+}
+
+.img-container img {
+    width: 300px;
+    height: 350px;
+    transition: transform 0.3s ease-in-out;  /* Zoom effect on hover */
+}
+
+.img-container:hover img {
+    transform: scale(1.1);  /* Zooms in the image */
+}
+
+ /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ /*login*/
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 500px;
+    text-align: left;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #4CAF50;
+}
+
+/* Input Boxes */
+.textbox {
+    margin-bottom: 20px;
+}
+
+.textbox input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.textbox textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.textbox textarea:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+.textbox input:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+/* Forgot Password */
+.forgot-password a {
+    font-size: 14px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.forgot-password a:hover {
+    text-decoration: underline;
+}
+
+/* Login Button */
+.button-container {
+    margin-top: 20px;
+}
+
+.login-button {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.login-button:hover {
+    background-color: #45a049;
+}
+
+/* Create Account */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup-link a {
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
+
+.imagecontact-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  /* 5 equal columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.imgcontact-container {
+    position: relative;
+    overflow: hidden;  /* Ensures the zoom effect is contained */
+    
+    width: 600px;
+}
+
+.imgcontact-container:hover img {
+    transform: scale(1.1);  /* Zooms in the image */
+}
+
+.imagecontact-gallery {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);  /* 5 equal columns */
+    gap: 20px;
+    padding: 20px;
+}
+
+.imgcontact-container {
+    position: relative;
+    overflow: hidden;  /* Ensures the zoom effect is contained */
+    
+    width: 600px;
+}
+
+.imgcontact-container:hover img {
+    transform: scale(1.1);  /* Zooms in the image */
+
+  
